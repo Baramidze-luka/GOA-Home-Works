@@ -9,8 +9,8 @@
 #არ დაიპრინტება რადგან int ვერ დავუმატებთ str ან პირიქით 
 
 a = 5
-b = 10
-result = a + b
+b = "10"
+result = a + int(b)
 print("Result",result)
 
 
