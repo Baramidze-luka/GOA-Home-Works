@@ -1,14 +1,7 @@
 
+name = input("Name:")
 
-
-num1 = int(input("Enter Number:"))
-
-num2 = int(input("Enter Number1:"))
-
-print(num1 + num2)
-
-print(num1 * num2)
-
-print(num1 / num2)
-
-print(num1 - num2)
+if name == "luka":
+    print("Hello luka")
+elif name == "daviti":
+    print("show")    
