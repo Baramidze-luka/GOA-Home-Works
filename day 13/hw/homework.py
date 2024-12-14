@@ -1,9 +1,15 @@
-# 1) თუ ასაკი არის 18 ის ზემოთ ან 50 წლის ქვემოთ  ან თუ  ასაკი  ნაკლებია 18 ზე და მეტია 50 ზე გამოტანეთ ის უნდა იყოს ან მოხუცი ან ახალგაზრდა
+# 1 ) მომხმარებელს შემოატაინეთ ორი რიცხვი და მათზე მოახდინეთ მათემატიკური ოპერაციები.
+
+num1 = int(input("Enter Number:"))
+
+num2 = int(input("Enter Number1:"))
+
+print(num1 + num2)
+
+print(num1 * num2)
+
+print(num1 / num2)
+
+print(num1 - num2)
 
 
-age = int(input("Enter Your Age:"))
-
-if age <  18:
-    print("You are Young")
-elif age >  50:
-    print("Your Are Old")

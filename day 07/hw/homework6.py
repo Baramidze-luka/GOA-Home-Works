@@ -1,5 +1,7 @@
-# გარდაქმენით Boolean ტიპის ცვლადი str ტიპის ცვლადად 
+# 2) შექმენით სამი ინტეჯერ ტიპის ცვლადი და დაბეჭდეთ მათი ჯამი
 
-teaching_in_goa = True
+num1 = 19
+num2 = 73
+num3 = 84
 
-print(str(teaching_in_goa))
+print(num1 + num2 + num3)
